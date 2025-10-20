@@ -1,0 +1,11 @@
+INSERT INTO products(name, price)
+VALUES('Apple', 120.00),('Orange', 333.00),('Limon', 100.00),('Meet', 300.00),('Beer', 210.00);
+
+INSERT INTO orders(user_id)
+VALUES(1),(2),(3),(4),(5);
+
+INSERT INTO users(name, email)
+VALUES('Bob', 'bob@mail.ru'),('Andrew','andrew@mail.ru'),('Olga','olga@mail.ru'),('Kolya', 'kolya@mail.ru'),('Alex','alex@mail.ru');
+
+INSERT INTO order_items(order_id, product_id, quantity )
+VALUES (1, 5, 10),(1, 4, 3),(2,2,2),(2,3,3),(3,5,10),(4,1,1),(5,5,20);
